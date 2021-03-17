@@ -16,18 +16,16 @@ header{
 .debug.row [class*="col-"]{
   background-color: red;
   border: 1px solid black;
-  min-height: 20px;
 }
-#start, #portfolio, #about, #contact{
-  min-height: 400px;
-  padding: 40px;
+#start, #portfolio, #about, #contact, #location, #copyright{
+  padding: 40px 0;
 }
 #start, #about{
   background-color: #1abc9c;
 }
-.box-img{
-  min-height: 200px;
-  background-color: coral;
+
+.box-img img{
+  height: 200px
 }
 .wrapper-60{
   width: 60%;
@@ -42,6 +40,5 @@ header{
   
 }
 #copyright{
-  min-height: 50px;
   background-color: #2c3e50;
 }
