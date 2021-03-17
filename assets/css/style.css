@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #2c3e50;
+}
+.white-text{
+  color: #fff;
+}
+.debug{
+  background-color: blue;
+}
+.debug.row [class*="col-"]{
+  background-color: red;
+  border: 1px solid black;
+  min-height: 20px;
+}
+#start, #portfolio, #about, #contact{
+  min-height: 400px;
+  padding: 40px;
+}
+#start, #about{
+  background-color: #1abc9c;
+}
+.box-img{
+  min-height: 200px;
+  background-color: coral;
+}
+.wrapper-60{
+  width: 60%;
+  max-width: 900px;
+  margin: auto;
+}
+#contact .box-mess{
+  min-height: 300px;
+}
+#location{
+  background-color: #3a546d;
+  
+}
+#copyright{
+  min-height: 50px;
+  background-color: #2c3e50;
+}
