@@ -25,7 +25,8 @@ header{
 }
 
 .box-img img{
-  height: 200px
+  height: 200px;
+  padding: 10px;
 }
 .wrapper-60{
   width: 60%;
