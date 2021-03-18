@@ -15,9 +15,9 @@
   font-weight: 600;
 }
 ._wrapper_60{
-  width: 60%;
+  width: 80%;
   max-width: 900px;
-  margin: auto;
+  margin: 0 auto;
 }
 h1{
   font-size: 3.7em;
@@ -32,14 +32,14 @@ h1{
   width: 100%;
   z-index: 999;
 }
-._header_top ul{
+ul{
   list-style: none;
 }
-._header_top ul li{
+._menu_inline li{
   display: inline;
   padding: 0 10px;
 }
-._header_top ul li a, ._btn_blu a{
+._menu_inline li a{
   color: #fff;
   text-decoration: none;
 }
@@ -75,7 +75,7 @@ h1{
   margin-bottom: 6px;
   border: 2px solid;
 }
-
+/* MAIN */
 ._box{
   width: 100%;
   margin-bottom: 15px;
@@ -85,9 +85,23 @@ h1{
   width: 100%;
   border-radius: 15px;
 }
-
-#contact .box-mess{
-  min-height: 300px;
+._btn_green{
+  background-color:  #1abc9c;
+  border: 1px solid #fff;
+}
+._input_clean{
+  border:none;
+  width: 100%;
+  padding: 20px 0;
+}
+._input_clean::placeholder{
+  color: black;
+}
+._input_clean._no_active:focus{
+  outline: none;
+}
+._b_top{
+  border-bottom: 2px solid lightgray;
 }
 ._footer_top{
   background-color: #3a546d;
